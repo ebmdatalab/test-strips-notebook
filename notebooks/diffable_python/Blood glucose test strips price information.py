@@ -31,8 +31,10 @@ import numpy as np
 import os
 from ebmdatalab import bq, maps, charts #possibly do graphs at later stage.
 
-#this sets £ and pence properly
-pd.set_option('display.float_format', lambda x: '%.2f' % x)
+# +
+#this sets £ and pence properly - removed presently to display the individual strip price as they are priced as boxes in tariff.
+#pd.set_option('display.float_format', lambda x: '%.2f' % x)
+# -
 
 # # SQL
 
